@@ -1,6 +1,6 @@
 # Watcher of Friends Online
 
-[TODO. There will be project description]
+This program prints to the console your online friends in social network vk.com
 
 # How to Install
 
@@ -11,6 +11,27 @@ pip install -r requirements.txt # alternatively try pip3
 ```
 
 Remember, it is recommended to use [virtualenv/venv](https://devman.org/encyclopedia/pip/pip_virtualenv/) for better isolation.
+
+# Quickstart
+
+The program must be run using the console, after run programm will request login and password for vk.com
+How to run:
+```bash
+$ python3 vk_friends_online.py
+```
+Example:
+```bash
+$ python3 vk_friends_online.py
+Enter you login: login@mail.org
+Enter password:
+Online friends: 5
+Владимир Иванов
+Василий Петров
+Конор Макгрегор
+Лео Месси
+Александр Пушкин
+```
+
 
 # Project Goals
 
