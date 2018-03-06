@@ -9,7 +9,7 @@ Python 3 should be already installed. Then use pip (or pip3 if there is a confli
 ```bash
 pip install -r requirements.txt # alternatively try pip3
 ```
-To work you need app_id to get app_id, you need to register your application at https://vk.com/dev and insert your id in variable name APP_ID.
+To work you need to register your application at https://vk.com/dev and insert your application_id in variable name APP_ID.
 
 Remember, it is recommended to use [virtualenv/venv](https://devman.org/encyclopedia/pip/pip_virtualenv/) for better isolation.
 
